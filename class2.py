@@ -1,5 +1,5 @@
 # Python Object-Oriented Programming
-# class variable
+# class variable vs instance variable
 
 class Employee:
     """A sample Employee class"""
@@ -7,7 +7,7 @@ class Employee:
     raise_amount = 1.04   #class variable
 
     def __init__(self, first, last, pay):
-        self.first = first
+        self.first = first    #instance variable
         self.last = last
         self.pay = pay
         self.email = first + '.' + last + '@company.com'
